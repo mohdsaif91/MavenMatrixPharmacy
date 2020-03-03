@@ -28,7 +28,7 @@ public class homecontroller {
 
 	@RequestMapping("/")
 	public String home() {
-		return "home.jsp";
+		return "home";
 	}
 
 	@RequestMapping("/employee/{id}")
